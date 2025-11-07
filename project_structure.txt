@@ -1,0 +1,26 @@
+Dsa_Project/
+│
+├── 📂 src/                     # All C++ source files
+│   ├── main.cpp                # Entry point
+│   ├── graph.cpp               # Graph logic (add nodes, edges)
+│   ├── algorithm.cpp           # Dijkstra or BFS/DFS
+│   └── utils.cpp               # Helper functions (colors, file read/write)
+│
+├── 📂 include/                 # Header files (function declarations)
+│   ├── graph.h
+│   ├── algorithm.h
+│   └── utils.h
+│
+├── 📂 data/                    # Input data files
+│   ├── cities.txt
+│   └── paths.txt
+│
+├── 📂 docs/                    # Documentation and visuals
+│   ├── flowchart.png
+│   ├── demo_screenshot.png
+│   └── README_assets/          # (optional, for banner/logo)
+│
+├── .gitignore                  # Ignore build/exe/temp files
+├── LICENSE                     # MIT license or similar
+├── README.md                   # Main project description
+└── Makefile (optional)         # For compiling easily (e.g., `make run`)
