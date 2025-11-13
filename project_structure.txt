@@ -1,26 +1,26 @@
-Dsa_Project/
+SmartRouteFinder/
 │
-├── 📂 src/                     # All C++ source files
-│   ├── main.cpp                # Entry point
-│   ├── graph.cpp               # Graph logic (add nodes, edges)
-│   ├── algorithm.cpp           # BFS/DFS
-│   └── utils.cpp               # Helper functions (colors, file read/write)
+├── 📂 src/                     
+│   ├── main.cpp              
+│   ├── path_finder.cpp     
+│   ├── modify_paths.cpp     
+│   └── trip_planner.cpp     
 │
-├── 📂 include/                 # Header files (function declarations)
-│   ├── graph.h
-│   ├── algorithm.h
-│   └── utils.h
+├── 📂 include/             
+│   ├── path_finder.h
+│   ├── modify_paths.h
+│   └── trip_planner.h
 │
-├── 📂 data/                    # Input data files
-│   ├── cities.txt
-│   └── paths.txt
+├── 📂 data/               
+│   ├── city.txt
+│   └── path.txt              
 │
-├── 📂 docs/                    # Documentation and visuals
-│   ├── flowchart.png
-│   ├── demo_screenshot.png
+├── 📂 docs/                  
+│   ├── flowchart.png          
+│   ├── demo_screenshot.png    
 │   └── README_assets/         
 │
-├── .gitignore                  # Ignore build/exe/temp files
-├── LICENSE                     # MIT license or similar
-├── README.md                   # Main project description
-└── Makefile (optional)         # For compiling easily (e.g., `make run`)
+├── .gitignore                 
+├── LICENSE                    
+├── README.md                 
+└── Makefile (optional)        

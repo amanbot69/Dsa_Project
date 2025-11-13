@@ -15,12 +15,14 @@ Files in the Project:
 
 Features:
 ---------
-- Add new cities
-- Add new paths between cities
-- Delete existing paths
-- Find best route based on cost, time, or overall value
-- Display all available cities
-- Dijkstra’s algorithm used for shortest path calculation
+- Add new cities  
+- Add new paths between cities  
+- Delete existing paths  
+- Update existing paths  
+- Find best route based on cost, time, or overall value  
+- Display all available cities  
+- Trip planner for visiting multiple cities  
+- Uses Dijkstra’s algorithm for shortest path calculation  
 
 How to Run:
 -----------
