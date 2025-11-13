@@ -3,7 +3,7 @@ Dsa_Project/
 ├── 📂 src/                     # All C++ source files
 │   ├── main.cpp                # Entry point
 │   ├── graph.cpp               # Graph logic (add nodes, edges)
-│   ├── algorithm.cpp           # Dijkstra or BFS/DFS
+│   ├── algorithm.cpp           # BFS/DFS
 │   └── utils.cpp               # Helper functions (colors, file read/write)
 │
 ├── 📂 include/                 # Header files (function declarations)
@@ -18,7 +18,7 @@ Dsa_Project/
 ├── 📂 docs/                    # Documentation and visuals
 │   ├── flowchart.png
 │   ├── demo_screenshot.png
-│   └── README_assets/          # (optional, for banner/logo)
+│   └── README_assets/         
 │
 ├── .gitignore                  # Ignore build/exe/temp files
 ├── LICENSE                     # MIT license or similar
